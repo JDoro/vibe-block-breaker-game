@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Block Breaker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vibe Block Breaker</h1>
+        <div class="game-wrapper">
+            <canvas id="gameCanvas"></canvas>
+            <div id="gameOverlay" class="overlay">
+                <div class="overlay-content">
+                    <h2 id="overlayTitle">Click to Start</h2>
+                    <p id="overlayMessage">Use your mouse or touch to move the paddle</p>
+                    <div id="scoreDisplay" class="score">Score: 0</div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="score-container">
+                <span>Score: <span id="score">0</span></span>
+                <span>Lives: <span id="lives">3</span></span>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
